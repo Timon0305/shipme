@@ -1,0 +1,5 @@
+1. Item: Document or Non – Document (user chooses 1)
+2. Shipment Purpose: Commercial, Gift, Personal Use, Sample (Dropdown)
+3. Item Quantity: 1 – 99 (Drop down) max 5 
+4. ADDITIONAL REQUIREMENT - add a button where user can add more shipments
+5. ADDITIONAL REQUIREMENT - add a button where user can choose a service: Service: Express or Economy (User chooses 1)
