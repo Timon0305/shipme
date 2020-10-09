@@ -1,75 +1,37 @@
-<!--==========================
-=            APPS            =
-===========================-->
 <template>
-	<!-- APP -->
-	<v-app class="app" v-cloak :dark="appConfig.dark">
-		
-		<!-- APP-TOP -->
-		<app-top v-if="$route.name.search(/Login|error505|error404/)==-1"></app-top>
-		<!-- APP-DARW -->
-		<app-drawer v-if="$route.name.search(/Login|error505|error404/)==-1">
-			<!-- APP-DRA -->
-			<app-drawer-list :obj="{list:routes}"></app-drawer-list>
-		</app-drawer>
-		<!-- ROUTERVIEW -->
-		<router-view class="app__router" :class="{'app__router--small':appConfig.small}"></router-view>
-		<!-- FOOTER -->
-		<footerCompanyFooter v-if="$route.name.search(/Login|error505|error404/)==-1" :style="{'background-image': 'url('+appConfig.bg+')'}" ></footerCompanyFooter>
-	</v-app>
+  <router-view></router-view>
 </template>
-<script>
-	export default {
-		name: 'app',
-		mounted() {
-			let vm = this;
-			vm.$vuetify.theme.primary = vm.appConfig.primary[0]
-		},
-		data() {
-			return {}
-		}
-	}
-</script>
-<style>
-	.flex-column {
-		flex-direction: column
-	}
 
-	body {
-		font-family: "Roboto";
-		font-size: 14px;
-		background: #fafafa;
-		text-rendering: geometricPrecision;
-	}
-code{
-	padding: 0px !important
-}
-	.container {
-		max-width: 1200px !important;
-	}
+<style lang="scss">
+// 3rd party plugins css
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+@import "~socicon/css/socicon.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "assets/plugins/line-awesome/css/line-awesome.css";
+@import "assets/plugins/flaticon/flaticon.css";
+@import "assets/plugins/flaticon2/flaticon.css";
 
-	.app {
-		background: #fefefe;
-	}
+// Main demo style scss
+@import "assets/sass/style.vue";
 
-	.app.theme--dark {
-		background: #303030;
-	}
+// Check documentation for RTL css
+/*@import "assets/css/style.vue.rtl";*/
 
-	.app__router {
-		min-height: calc(100vh);
-		margin-left: 235px;
-	}
-
-	.app__router--small {
-		margin-left: 65px;
-	}
-
-	@media(max-width:960px) {
-		.app__router {
-			margin-top:50px;
-			margin-left: 25px;
-		}
-	}
+// Demo skins (demo1 only)
+@import "assets/sass/global/integration/frameworks/vue/skins";
 </style>
-<!--====  End of APPS  ====-->
+
+<script>
+import { OVERRIDE_LAYOUT_CONFIG } from "@/store/config.module";
+
+export default {
+  name: "MetronicVue",
+  mounted() {
+    /**
+     * this is to override the layout config using saved data from localStorage
+     * remove this to use config only from static json (@/common/config/layout.config.json)
+     */
+    this.$store.dispatch(OVERRIDE_LAYOUT_CONFIG);
+  }
+};
+</script>

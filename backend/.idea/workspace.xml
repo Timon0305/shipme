@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3144b4f-b8c5-4076-9a83-3605762f48f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../admin/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/assets/media/logos/logo-shipme.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/common/api.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/common/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/common/jwt.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/store/auth.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/store/breadcrumbs.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/store/config.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/store/htmlclass.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/admin/adminController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/config/test.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid-lists/subheader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid-lists/usage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid/directionAndAlign.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid/growShrink.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid/nestedGrid.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid/offset.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid/order.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid/playground.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid/rowColumnBreakpoint.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid/uniqueLayouts.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-layout/grid/usage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-top/AppMessages.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-top/AppNotifications.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-top/AppTranslation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app-top/AppUser.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/calendars/daily.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/calendars/events.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/calendars/features.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/calendars/slots.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/calendars/weekly.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/parallax/content.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/parallax/customHeight.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/timelines/advanced.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/timelines/alert.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/timelines/avatars.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/timelines/color.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/timelines/icons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/timelines/slot.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/timelines/small.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/treeview/directory.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/treeview/fileExplorer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/app/treeview/hotspots.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/bar-3-d/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/bar-3-d/example2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/bar-3-d/example3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/bar-chart/bar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/bar-chart/barAndLine.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/bar-chart/barHorizontal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/calendar-map/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/calendar-map/example2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/calendar-map/example3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/globe/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/graph/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/graph/example2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/graph/example3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/line-chart/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/line-chart/example2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/line-chart/example3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/map-chart/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/map-chart/example2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/map-chart/example3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/pie-chart/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/pie-chart/example2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/pie-chart/example3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/sankey/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/sankey/example2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/sankey/example3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/sun-burst/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/sun-burst/example2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/sun-burst/example3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/tree/example1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/tree/example2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/charts/tree/example3.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/autocompletes/advanced.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/autocompletes/api.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/autocompletes/asynchronous.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/autocompletes/customFilter.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/autocompletes/scopedSlots.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/combobox/advanced.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/combobox/comboboxMultiple.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/combobox/noData.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/forms/rules.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/forms/validationWithSubmitAndClear.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/forms/veeValidate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/forms/vuelidate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/checkboxesArray.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/checkboxesBoolean.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/checkboxesColors.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/checkboxesInlineTexfield.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/checkboxesStates.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/labelSlot.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/radiosColors.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/radiosDefault.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/radiosDirection.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/switchesArray.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/switchesBoolean.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/switchesColors.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selection-controls/switchesStates.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selects/customTextAndValue.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selects/icons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selects/light.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selects/multiple.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selects/selectionAppearance.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/selects/slots.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/customColors.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/customThumb.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/discrete.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/editableNumericValue.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/icons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/metronome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/minMax.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/range.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/step.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/thumb.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/thumbLabel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/ticks.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/forms/sliders/validation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/groups/button-groups/appBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/groups/item-groups/post.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/groups/windows/account.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/groups/windows/onboarding.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/layout/AppDrawer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/layout/AppDrawerList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/layout/AppHeader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/layout/AppParallax.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/layout/AppTop.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/layout/AppTopSearch.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/layout/appCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateAllowedDates.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateBirthday.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateColorable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateCurrent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateDialogAndMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateEvents.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateFormatting.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateFormattingMomentDatefns.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateIcons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateInternationalization.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateMultiple.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/datePickerDate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateReadonly.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/dateWidth.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthAllowedMonths.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthColorable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthCurrent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthDialogAndMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthEvents.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthIcons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthInternationalization.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthLight.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthMultiple.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthReadonly.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/date-pickers/monthWidth.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/time-pickers/time24hFormat.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/time-pickers/timeAllowedTimes.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/time-pickers/timeColorable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/time-pickers/timeDialogAndMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/pickers/time-pickers/timeWidth.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/alerts/closable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/alerts/icon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/alerts/outline.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/alerts/transition.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/avatars/advanced.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/avatars/iconAndText.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/badges/icon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/badges/inline.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/badges/overlap.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/badges/visibility.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/bottom-navigation/colorAndShift.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/bottom-navigation/toggle.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/bottom-sheets/inset.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/breadcrumbs/iconDividers.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/breadcrumbs/itemSlot.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/block.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/depressed.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/dropdown.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/flat.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/floating.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/icon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/loaders.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/outline.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/raised.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/round.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/buttons/sizing.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/cards/customActions.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/cards/grids.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/cards/horizontal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/cards/mediaWithText.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/cards/twitterCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/carousels/customIcons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/carousels/customTransition.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/carousels/hideControls.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/carousels/hideDelimiters.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/chips/closable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/chips/colored.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/chips/icon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/chips/inSelects.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/chips/label.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/chips/outline.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-iterator/slots.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/crud.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/customIcons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/editdialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/expand.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/headerCell.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/headerless.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/headers.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/noData.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/pageText.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/paginate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/progress.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/select.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/server.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/data-tables/sort.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dialogs/advanced.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dialogs/form.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dialogs/fullscreen.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dialogs/loader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dialogs/modal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dialogs/overflowed.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dialogs/scrollable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dialogs/withoutActivator.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dividers/dividerList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dividers/dividerListPortrait.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dividers/dividerPortrait.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dividers/inset.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dividers/lightAndDark.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dividers/subheaders.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/dividers/vertical.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/expansion-panels/customIcons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/expansion-panels/disabledAndReadonly.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/expansion-panels/expand.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/expansion-panels/external.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/expansion-panels/focusable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/expansion-panels/iconSlot.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/expansion-panels/popout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/floating-action-buttons/displayAnimation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/floating-action-buttons/lateralScreens.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/floating-action-buttons/small.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/floating-action-buttons/speedDial.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/footer/companyFooter.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/footer/indigoFooter.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/footer/tealFooter.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/images/containCover.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/images/gradients.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/images/maxHeight.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/images/ratio.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/lists/actionTitleAndSubtitle.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/lists/avatarSubheaderTitleAndAction.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/lists/avatarThreeLines.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/lists/avatarTitleAndAction.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/lists/cardList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/lists/expansionLists.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/lists/iconTwoLinesAndAction.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/lists/subheadingsAndDividers.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/lists/titleSubtitleActionsAndActionText.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/menus/absolute.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/menus/absoluteWithoutActivator.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/menus/customTransition.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/menus/hover.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/menus/menus.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/menus/popover.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/navigation-drawers/combined.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/navigation-drawers/dark.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/navigation-drawers/mini.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/navigation-drawers/nested.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/navigation-drawers/permanentClipped.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/navigation-drawers/permanentFloating.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/navigation-drawers/permanentFloatingCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/navigation-drawers/persistent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/navigation-drawers/temporary.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/paginations/disabled.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/paginations/icons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/paginations/limit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/paginations/long.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/ui/paginations/round.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/elevation/playground.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/hover/transition.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/circularColored.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/circularIndeterminate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/circularRotate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/circularSizeAndWidth.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/linearBuffer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/linearCustomColors.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/linearCustomHeightAndContextualColors.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/linearDeterminate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/linearIndeterminate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/progress/linearQueryIndeterminateAndDeterminate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/ratings/card.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/ratings/increments.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/ratings/length.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/ratings/sizes.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/sheets/elevation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/snackbars/contextual.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/sparklines/dashboardCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/sparklines/fill.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/sparklines/heartRate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/sparklines/playground.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/sparklines/salesCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/alternateError.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/alternateLabels.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/alternativeError.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/dynamic.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/editable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/error.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/horizontal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/linear.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/nonEditable.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/nonLinear.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/steppers/optional.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/subheaders/grid.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/subheaders/menu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/subheaders/social.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/alignWithTitle.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/content.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/desktop.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/fixedTabs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/grow.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/icons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/iconsAndText.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/overflowToMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/pagination.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/right.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tabs/search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/appBar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/appBarExtension.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/appBarItems.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/appBarMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/columnWidthWithHierarchy.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/dense.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/flexibleAndCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/floatingWithSearch.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/prominent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/scrolling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/systemBarsStatusWindow.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/toolbars/variations.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tooltips/alignment.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/utils/tooltips/visibility.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/widgets/widgetsCard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/components/widgets/widgetsList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/core/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/core/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/App/Calendars.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/App/Parallax.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/App/Profile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/App/Timelines.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/App/Treeview.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Bar-chart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Bar3d.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Calendar-map.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Globe.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Graph.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Line-chart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Map-chart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Pie-chart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Sankey.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Sun-burst.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Tree.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Charts/Voxels.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Alerts.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Avatars.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Badges.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Bottom-navigation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Bottom-sheets.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Breadcrumbs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Buttons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Cards.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Carousels.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Chips.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Data-iterator.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Data-tables.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Dialogs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Dividers.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Expansion-panels.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Floating-action-buttons.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Images.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Lists.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Menus.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Navigation-drawers.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Components/Paginations.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Dashboards/Dashboard1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Dashboards/Dashboard2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Forms/Autocompletes.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Forms/Combobox.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Forms/Forms.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Forms/Selection-controls.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Forms/Selects.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Forms/Sliders.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Groups/Button-groups.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Groups/Item-groups.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Groups/Windows.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Layout/Grid.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Layout/Layout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Layout/Responsive.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Pages/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Pages/error404.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Pages/error505.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Pickers/Date-pickers.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Pickers/Time-pickers.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Hover.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Progress.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Ratings.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Sheets.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Snackbars.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Sparklines.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Steppers.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Subheaders.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Tabs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Toolbars.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Utils/Tooltips.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Widgets/Widgets1.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/Widgets/Widgets2.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/css/icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/css/materialdesignicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/css/vuetify.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/data/bathymetry_bw_composite_4k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/data/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/data/users.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/data/world.topo.bathy.200401.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Material-Design-Iconic-Fontd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Material-Design-Iconic-Fontf700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Material-Design-Iconic-Fontf700.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Material-Design-Iconic-Fontf700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Material-Design-Iconic-Fontf700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Simple-Line-Icons4c82.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Simple-Line-Icons4c82.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Simple-Line-Icons4c82.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Simple-Line-Icons4c82.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Simple-Line-Icons4c82.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/Simple-Line-Iconsd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/dripicons-v2.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/dripicons-v2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/dripicons-v2.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/dripicons-v2.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/dripicons-v2d41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/fontawesome-webfont3e6e.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/fontawesome-webfont3e6e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/fontawesome-webfont3e6e.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/fontawesome-webfont3e6e.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/fontawesome-webfont3e6e.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/fontawesome-webfontd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/ioniconsaa26.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/ioniconsaa26.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/ioniconsaa26.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/ioniconsaa26.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/themify9f24.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/themify9f24.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/themify9f24.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/themify9f24.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/themifyd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/typicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/typicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/typicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/typicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/typiconsd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/weathericons-regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/weathericons-regular-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/weathericons-regular-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/weathericons-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/weathericons-regular-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/fonts/weathericons-regular-webfontd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg-auth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg-pattern-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bg/bg-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/bitcoin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/016-spain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/017-germany.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/020-flag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/Brazil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/af.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/al.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/am.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/an.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/as.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/at.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/au.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/aw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/az.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/be.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/br.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/by.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/bz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/catalonia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/co.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/cz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/dj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/dk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/dm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/do.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/dz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/eg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/eh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/england.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/er.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/es.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/et.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/europeanunion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/fam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/fi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/fj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/fk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/fm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/fo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/fr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/germany.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/gy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/hk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/hm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/hn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/hr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ht.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/hu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/il.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/io.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/iq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/is.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/italy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/jm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/jo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/jp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/kg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/kh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/km.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/kn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/kp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/kr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/kw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/kz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/la.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/lb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/lc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/li.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/lk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/lr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/lt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/lu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/lv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/md.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/my.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/mz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/na.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/nc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/nf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ni.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/nl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/np.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/nr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/nu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/nz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/om.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/pw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/py.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/qa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/re.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/rs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/russia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/rw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/scotland.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/si.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/so.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/spain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/st.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/sz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/td.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/th.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/to.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/tz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/um.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/uy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/uz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/va.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/vc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/vg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/vi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/vn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/vu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/wales.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/wf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ws.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/ye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/yt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/za.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/zm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/flags/zw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/help-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/products/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/products/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/products/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/products/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/products/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/products/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/projects/project-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/projects/project-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/projects/project-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/projects/project-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/small/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/small/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/small/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/small/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/small/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/small/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/small/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/images/users/avatar-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/yarn.lock" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-429663230">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="10" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="3130" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/admin/adminController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/errorResponse.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-318">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/passport.js" />
+        <option value="$PROJECT_DIR$/models/Admin.js" />
+        <option value="$PROJECT_DIR$/utils/response.js" />
+        <option value="$PROJECT_DIR$/config/keys.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/utils/errorResponse.js" />
+        <option value="$PROJECT_DIR$/routes/admin/adminController.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="adminMiddleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/work/Vue/theme/vue/demo1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3144b4f-b8c5-4076-9a83-3605762f48f3" name="Default Changelist" comment="" />
+      <created>1602176139743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602176139743</updated>
+      <workItem from="1602176141080" duration="12416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12416000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32893288" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17059" column="12" selection-start-line="17059" selection-start-column="12" selection-end-line="17059" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/passport/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/keys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/errorResponse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/adminController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
