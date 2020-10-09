@@ -44,37 +44,43 @@
           <h1 class="d-none d-lg-block">SHIPME.NOW!</h1>
           <b-form @submit.stop.prevent="onSubmit">
             <b-form-group id="origin" label-for="origin">
-              <b-form-input
-                     id="origin"
-                     placeholder="Asal"
-                     ref="origin"
-                     name="origin"
-                     v-model="$v.form.starter.$model"
-                     :state="validateState('starter')"
-                      aria-describedby="starter-feedback"
-              ></b-form-input>
+              <vue-google-autocomplete
+                  ref="from_address"
+                  id="from_address"
+                  name="from_address"
+                  aria-describedby="starter-feedback"
+                  classname="form-control"
+                  placeholder="Asal"
+                  v-on:placechanged="getFromAddressData"
+                  types=""
+              >
+              </vue-google-autocomplete>
               <b-form-invalid-feedback id="starter-feedback">
                 Please enter Origin
               </b-form-invalid-feedback>
             </b-form-group>
-            <b-form-group id="aim" label-for="end">
-              <b-form-input
-                  id="aim"
-                  placeholder="Tujuan"
-                  name="aim"
-                  v-model="$v.form.end.$model"
-                  :state="validateState('end')"
-                  aria-describedby="end-feedback"
-              ></b-form-input>
+
+            <b-form-group id="aim" label-for="aim">
+              <vue-google-autocomplete
+                      ref="to_address"
+                      id="to_address"
+                      name="to_address"
+                      aria-describedby="end_feedback"
+                      classname="form-control"
+                      placeholder="Tujuan"
+                      v-on:placechanged="getToAddressData"
+                      types=""
+              >
+              </vue-google-autocomplete>
               <b-form-invalid-feedback id="end-feedback">
                 Please enter Aim
               </b-form-invalid-feedback>
             </b-form-group>
+
             <b-button
               type="submit"
               class="form-control btn btn-light"
             >Kirim Sekarang!</b-button>
-            <!--<router-link to="/form-shipping">Form Shipping</router-link>-->
           </b-form>
         </div>
       </div>
@@ -97,52 +103,43 @@
 <script>
 
 import {validationMixin} from 'vuelidate';
-import {required} from 'vuelidate/lib/validators';
+// import {required} from 'vuelidate/lib/validators';
+import VueGoogleAutocomplete from "vue-google-autocomplete";
 
 export default {
   name: "MainSection",
+    components: {VueGoogleAutocomplete},
     mixins: [validationMixin],
 
-    data() {
-      return {
-          form: {
-              starter: null,
-              end: null
-          },
-      }
+    data: function () {
+        return {
+            from_address: '',
+            to_address: ''
+        }
     },
 
-    validations: {
-      form: {
-          starter : {
-              required
-          },
-          end: {
-              required
-          }
-      }
+    mounted() {
+        this.$refs.from_address.focus();
+        this.$refs.to_address.focus();
     },
+
     methods: {
-        validateState(name) {
-            const {$dirty, $error} = this.$v.form[name];
-            return $dirty ? !$error : null;
+
+        getFromAddressData(from_address) {
+            this.from_address = from_address;
+        },
+        getToAddressData(to_address) {
+            this.to_address = to_address
         },
 
         onSubmit() {
-          this.$v.form.$touch();
-          if (this.$v.form.$anyError) {
-              return;
-          }
-            const starter = this.$v.form.starter.$model;
-            const end = this.$v.form.end.$model;
-            console.log(starter, end)
+            localStorage.setItem('origin', JSON.stringify(this.from_address));
+            localStorage.setItem('aim', JSON.stringify(this.to_address));
         }
-    },
+    }
 };
 </script>
 
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .base {
   background: url("../../../assets/img/bg-landing-page.png");
