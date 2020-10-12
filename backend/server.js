@@ -56,6 +56,9 @@ app.use(passport.session());
 // Admin Routes
 app.use('/v1/api/admin', require('./routes/admin/adminController'));
 
+//Client Routes
+app.use('/v2/api/client', require('./routes/client/clientController'));
+
 app.use('/', (req, res) => {
     return res.json({
         msg: 'working'

@@ -60,13 +60,13 @@ export default {
     },
     methods: {
         completeStep(payload) {
+            console.log(payload)
             this.demoSteps.forEach((step) => {
                 if (step.name === payload.name) {
                     step.completed = true;
                 }
             })
         },
-        // Executed when @active-step event is triggered
         isStepActive(payload) {
             this.demoSteps.forEach((step) => {
                 if (step.name === payload.name) {

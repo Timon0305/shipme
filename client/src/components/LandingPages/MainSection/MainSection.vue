@@ -55,6 +55,7 @@
                   types=""
               >
               </vue-google-autocomplete>
+              <p class="text-right text-primary pointer-hand" v-on:click="clearFromAddressData">clear exporting country</p>
               <b-form-invalid-feedback id="starter-feedback">
                 Please enter Origin
               </b-form-invalid-feedback>
@@ -72,6 +73,7 @@
                       types=""
               >
               </vue-google-autocomplete>
+              <p class="text-right text-primary pointer-hand" v-on:click="clearToAddressData">clear importing country</p>
               <b-form-invalid-feedback id="end-feedback">
                 Please enter Aim
               </b-form-invalid-feedback>
@@ -103,7 +105,6 @@
 <script>
 
 import {validationMixin} from 'vuelidate';
-// import {required} from 'vuelidate/lib/validators';
 import VueGoogleAutocomplete from "vue-google-autocomplete";
 
 export default {
@@ -133,8 +134,36 @@ export default {
         },
 
         onSubmit() {
-            localStorage.setItem('origin', JSON.stringify(this.from_address));
-            localStorage.setItem('aim', JSON.stringify(this.to_address));
+            const fromCounty = this.from_address.country;
+            const toCountry = this.to_address.country;
+            const myLocation = 'Indonesia';
+            if (!fromCounty || !toCountry) {
+                alert('You have to input all fields')
+            }
+            else {
+                if (fromCounty === myLocation && toCountry === myLocation) {
+                    alert("One of both is Indonesia");
+                    this.$refs.to_address.clear()
+                }
+
+                else if (fromCounty !== myLocation && toCountry !== myLocation) {
+                    alert("If the exporting country is not Indonesia, the importing country has to be Indonesia");
+                    this.$refs.to_address.clear();
+                }
+
+                else {
+                    localStorage.setItem('origin', JSON.stringify(this.from_address));
+                    localStorage.setItem('aim', JSON.stringify(this.to_address));
+                    this.$router.push('/form-shipping')
+                }
+            }
+
+        },
+        clearFromAddressData() {
+            this.$refs.from_address.clear();
+        },
+        clearToAddressData() {
+            this.$refs.to_address.clear();
         }
     }
 };
@@ -156,6 +185,10 @@ export default {
 
 .col-lg-6 h2 {
   color: white;
+}
+
+.pointer-hand {
+  cursor: pointer;
 }
 
 .col-lg-6 p {
