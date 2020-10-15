@@ -215,8 +215,8 @@
                 }
                 axios.post(url, this.form).then(res => {
                     if(res.statusText === 'OK') {
-                        alert('Success');
                         localStorage.setItem('id', res.data._id);
+                        localStorage.setItem('origin', JSON.stringify(res.data));
                         this.$emit('can-continue', {value: true})
                     } else {
                         this.$emit('can-continue', {value: false})

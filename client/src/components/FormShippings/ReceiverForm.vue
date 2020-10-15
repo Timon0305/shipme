@@ -215,7 +215,7 @@ export default {
             this.form.sender_id = localStorage.getItem('id');
             axios.post(url, this.form).then(res => {
                 if(res.statusText === 'OK') {
-                    alert('Success');
+                    localStorage.setItem('aim', JSON.stringify(res.data));
                     this.$emit('can-continue', {value: true})
                 } else {
                     this.$emit('can-continue', {value: false})

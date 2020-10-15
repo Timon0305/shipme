@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3144b4f-b8c5-4076-9a83-3605762f48f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/Payments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/FormShippings/DocumentComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/FormShippings/PackageComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/pages/ShippingSuccess/ShippingSuccess.view.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admin/src/common/config/menu.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/common/config/menu.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/client/clientController.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/client/clientController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/FormShippings/PayloadForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/FormShippings/PayloadForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/FormShippings/DocumentComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/FormShippings/DocumentComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/FormShippings/PackageComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/FormShippings/PackageComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/components/FormShippings/ReceiverForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/FormShippings/ReceiverForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/components/FormShippings/SenderForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/FormShippings/SenderForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/pages/FormShipping/FormShipping.view.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/FormShipping/FormShipping.view.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task/ShipMe Shipping Rates - Export &amp; Import - Zone.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/pages/ShippingSuccess/ShippingSuccess.view.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/ShippingSuccess/ShippingSuccess.view.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,7 +42,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="7714" />
+          <entry key="JavaScript" value="8194" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -75,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/client/clientController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-725">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="155">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
             </state>
           </provider>
         </entry>
@@ -111,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/admin/adminController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
+            <state relative-caret-position="286">
               <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
             </state>
           </provider>
@@ -288,12 +279,12 @@
       <workItem from="1602511023659" duration="1208000" />
       <workItem from="1602547688678" duration="6387000" />
       <workItem from="1602611038512" duration="17046000" />
-      <workItem from="1602748216395" duration="8174000" />
+      <workItem from="1602748216395" duration="11625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55044000" />
+    <option name="totallyTimeSpent" value="58495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
@@ -380,13 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin/adminController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/errorResponse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -422,10 +406,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/adminController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/client/clientController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="155">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>

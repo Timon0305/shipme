@@ -35,7 +35,7 @@ export default {
                   name: 'first',
                   title: 'Pengirim',
                   subtitle: '',
-                  component: SenderForm,
+                  component: PayloadForm,
                   completed: false
 
               },
@@ -52,7 +52,7 @@ export default {
                   name: 'third',
                   title: 'Documen',
                   subtitle: '',
-                  component: PayloadForm,
+                  component: SenderForm,
                   completed: false
               }
           ]

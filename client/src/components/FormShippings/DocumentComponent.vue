@@ -767,7 +767,8 @@
                 axios.post(url + 'saveDocumentShip', this.form)
                     .then(res => {
                         if  (res.statusText === 'OK') {
-                            this.$emit('/shipping-success', res.data)
+                            localStorage.setItem('payment', JSON.stringify(res.data));
+                             this.$router.push('/shipping-success')
                         }
                     })
             },
@@ -813,7 +814,7 @@
                     v2 * this.$v.form.quantity1.$model +
                     v3 * this.$v.form.quantity2.$model +
                     v4 * this.$v.form.quantity3.$model;
-                this.totalVolume = this.totalVolume * 0.000001;
+                this.totalVolume = Math.round(this.totalVolume * 0.000001 * 100000)/100000;
             },
             calculateWeight() {
                 this.totalWeight = parseFloat(this.$v.form.weight.$model) * this.$v.form.quantity.$model +
