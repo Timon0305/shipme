@@ -190,7 +190,8 @@
                     required
                 },
                 postCode: {
-                    required
+                    required,
+                    numeric
                 },
                 phone: {
                     required,
@@ -214,6 +215,7 @@
                 }
                 axios.post(url, this.form).then(res => {
                     if(res.statusText === 'OK') {
+                        alert('Success');
                         localStorage.setItem('id', res.data._id);
                         this.$emit('can-continue', {value: true})
                     } else {
@@ -229,7 +231,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .container-form {
-    width: 50%;
+    width: 100%;
   }
   .text-gold {
     color: #ceb16c;

@@ -215,6 +215,7 @@ export default {
             this.form.sender_id = localStorage.getItem('id');
             axios.post(url, this.form).then(res => {
                 if(res.statusText === 'OK') {
+                    alert('Success');
                     this.$emit('can-continue', {value: true})
                 } else {
                     this.$emit('can-continue', {value: false})
@@ -229,7 +230,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .container-form {
-  width: 50%;
+  width: 100%;
 }
 
 .text-gold {
@@ -249,4 +250,5 @@ hr {
 #submit-button {
   width: 100%;
 }
+
 </style>

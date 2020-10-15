@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import FormShipping from "../pages/FormShipping/FormShipping.view.vue"
 import LandingPage from "../pages/LandingPage/LandingPage.view.vue"
+import ShippingSuccess from '../pages/ShippingSuccess/ShippingSuccess.view'
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
         path: "/form-shipping",
         name: "FormShipping",
         component: FormShipping
+    },
+    {
+        path: '/shipping-success',
+        name: "ShippingSuccess",
+        component: ShippingSuccess
     }
 ];
 

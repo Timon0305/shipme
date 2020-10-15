@@ -17,7 +17,7 @@
         "bullet": "dot"
       },
       {
-        "title": "Export/Import",
+        "title": "Customer's Order",
         "root": true,
         "icon": "flaticon2-expand",
         "page": "vuetify/data-tables"
