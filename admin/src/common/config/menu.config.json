@@ -9,18 +9,12 @@
     "self": {},
     "items": [
       {
-        "title": "Dashboard",
+        "title": "Customer's Order",
         "root": true,
         "icon": "flaticon2-architecture-and-city",
         "page": "dashboard",
-        "translate": "MENU.DASHBOARD",
+        "translate": "MENU.Customers",
         "bullet": "dot"
-      },
-      {
-        "title": "Customer's Order",
-        "root": true,
-        "icon": "flaticon2-expand",
-        "page": "vuetify/data-tables"
       }
     ]
   }

@@ -16,7 +16,6 @@ const HtmlClass = {
 
     // init header and subheader menu
     this.initHeader();
-    this.initSubheader();
 
     // init aside and aside menu
     this.initAside();
@@ -100,26 +99,6 @@ const HtmlClass = {
   /**
    * Inin Subheader
    */
-  initSubheader() {
-    // Fixed content head
-    if (
-      objectPath.get(this.config, "subheader.fixed") &&
-      objectPath.get(this.config, "header.self.fixed.desktop")
-    ) {
-      store.dispatch(ADD_BODY_CLASSNAME, "kt-subheader--fixed");
-    }
-
-    if (objectPath.get(this.config, "subheader.display")) {
-      store.dispatch(ADD_BODY_CLASSNAME, "kt-subheader--enabled");
-    }
-
-    if (objectPath.has(this.config, "subheader.style")) {
-      store.dispatch(
-        ADD_BODY_CLASSNAME,
-        `kt-subheader--${objectPath.get(this.config, "subheader.style")}`
-      );
-    }
-  },
 
   /**
    * Init Aside

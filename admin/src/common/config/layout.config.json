@@ -15,7 +15,7 @@
   "loader": {
 	"enabled": true,
 	"type": "spinner-logo",
-	"logo": "assets/media/logos/logo-mini-md.png",
+	"logo": "assets/media/logos/logo-shipme.svg",
 	"message": "Please wait..."
   },
   "colors": {

@@ -5,7 +5,7 @@
         <hr />
       </div>
     </div>
-    <div class="row d-none d-md-block">
+    <div class="row ">
       <div class="col-12 col-lg-6 mt-3 d-block">
         <h3>Hubungi Kami</h3>
         <div class="d-flex mt-2">

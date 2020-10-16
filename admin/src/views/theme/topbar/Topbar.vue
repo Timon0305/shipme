@@ -146,7 +146,7 @@
       >
         <div class="kt-header__topbar-user">
           <span class="kt-header__topbar-welcome kt-hidden-mobile">Hi,</span>
-          <span class="kt-header__topbar-username kt-hidden-mobile">Sean</span>
+          <span class="kt-header__topbar-username kt-hidden-mobile">Kevin</span>
           <img
             class="kt-hidden"
             alt="Pic"

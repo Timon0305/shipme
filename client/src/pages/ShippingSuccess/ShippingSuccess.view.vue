@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-md-3"></div>
             <div class="col-md-6 mt-5 ">
                 <div class="text-center">
@@ -24,12 +24,10 @@
                 <hr class="dotted">
                 <div class="row">
                     <div class="col-md-6 text-md-left">
-                        <p>Sender User :</p>
                         <p>Sender Address :</p>
                         <p>Sender Country :</p>
                     </div>
                     <div class="col-md-6 text-md-right">
-                        <p>{{senderUser}}</p>
                         <p>{{senderAddress}}</p>
                         <p>{{senderCounty}}</p>
                     </div>
@@ -37,12 +35,10 @@
                 <hr class="dotted">
                 <div class="row">
                     <div class="col-md-6 text-md-left">
-                        <p>Receiver User :</p>
                         <p>Receiver Address :</p>
                         <p>Receiver Country :</p>
                     </div>
                     <div class="col-md-6 text-md-right">
-                        <p>{{receiverUser}}</p>
                         <p>{{receiverAddress}}</p>
                         <p>{{receiverCountry}}</p>
                     </div>
@@ -62,7 +58,7 @@
                 </div>
                 <div class="text-center">
                     <div class="text-center">
-                        <h3>Total Price : Rp {{shipPrice}}</h3>
+                        <h3>Total Price : {{shipPrice }}</h3>
                     </div>
                     <br>
                     <b-button class="confirm" variant="info" @click="paymentConfirm">Confirm</b-button>
@@ -75,6 +71,7 @@
 
 <script>
     import {BIcon} from 'bootstrap-vue';
+    import format from 'format-number';
     export default {
         name: "shippingsuccess",
         component: {BIcon},
@@ -99,7 +96,7 @@
                 shipQuantity: payment.items,
                 shipVolume: payment.volume,
                 shipWeight: payment.weights,
-                shipPrice: payment.price
+                shipPrice: format({prefix: 'Rp '})(payment.price)
             }
         },
         methods : {
