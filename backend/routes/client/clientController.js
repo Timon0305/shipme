@@ -100,7 +100,7 @@ router.post('/getDocumentPrice', async (req, res) => {
     res.json(total)
 });
 
-router.post('/saveDocumentShip', (req, res, next) => {
+router.post('/saveShip', (req, res, next) => {
     Payment.create(req.body, (err, data) => {
         if (err) {
             return next(err)
@@ -108,6 +108,123 @@ router.post('/saveDocumentShip', (req, res, next) => {
             res.json(data)
         }
     });
+});
+
+router.post('/getPackagePrice', async (req, res) => {
+    const {exportCountry, importCountry, service} = req.body;
+    if (exportCountry === 'Indonesia' && service === 'express') {
+        req.body.sheet = 1;
+    } else if (exportCountry === 'Indonesia' && service !== 'express') {
+        req.body.sheet = 3;
+    } else if (exportCountry !== 'Indonesia' && service === 'express') {
+        req.body.sheet = 2;
+    } else {
+        req.body.sheet = 4;
+    }
+
+    let weights = [];
+    let quantities = [];
+    for (let i = 0; i <= 3; i++) {
+        let key = 'weight';
+        let item = 'quantity';
+        if (i > 0) {
+            key = key + i;
+            item = item + i;
+        }
+        let weight = parseFloat(req.body[key]);
+        let quantity = parseFloat(req.body[item]);
+        if (weight > 0) {
+            weights.push(weight);
+        } else {
+            break;
+        }
+        if (quantity > 0) {
+            quantities.push(quantity)
+        } else {
+            break;
+        }
+    }
+    let country;
+    let data = [];
+    let total = 0;
+    for (let index = 0; index < weights.length; index ++) {
+        let weight = weights[index];
+        let quantity = quantities[index];
+        let price = 0;
+        let rows = await xlsxFile('./file/shipme.xlsx', {sheet: req.body.sheet});
+        {
+            country = exportCountry !== 'Indonesia' ? exportCountry : importCountry;
+            let gotResult = false;
+            if (req.body.sheet === 1 || req.body.sheet === 2) {
+                for (let i in rows) {
+                    if (gotResult) {
+                        break;
+                    }
+                    for (let j in rows[i]) {
+                        if (gotResult)
+                            break;
+
+                        if (rows[1][j] === country) {
+                            if (weight <= 250) {
+                                for (i = 9; i <= 279; i++) {
+                                    if (rows[i][0] === parseFloat(weight)) {
+                                        price = rows[i][j];
+                                        if (weight > 30) {
+                                            price = price * weight;
+                                        }
+                                        data.push(price);
+                                        gotResult = true;
+                                        break;
+                                    }
+                                }
+                            }
+                            else  {
+                                price = rows[279][j];
+                                price = price * 250;
+                                data.push(price);
+                                gotResult = true;
+                            }
+                        }
+                    }
+                }
+            } else {
+                for (let i in rows) {
+                    if (gotResult) {
+                        break;
+                    }
+                    for (let j in rows[i]) {
+                        if (gotResult)
+                            break;
+
+                        if (rows[1][j] === country) {
+                            if (weight <= 1000) {
+                                for (i = 3; i <= 996; i++) {
+                                    if (rows[i][0] === parseFloat(weight)) {
+                                        console.log('asd')
+                                        price = rows[i][j];
+                                        if (weight > 30) {
+                                            price = price * weight;
+                                        }
+                                        data.push(price);
+                                        gotResult = true;
+                                        break;
+                                    }
+                                }
+                            }
+                            else  {
+                                price = rows[996][j];
+                                price = price * 1000;
+                                data.push(price);
+                                gotResult = true;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        total += price * quantity;
+    }
+    res.json(total)
 });
 
 module.exports = router;

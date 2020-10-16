@@ -106,7 +106,7 @@
             <div class="col-md-2">
                 <div class="form-row">
                     <div class=" col-md-12">
-                        <b-form-group id="example-input-group-2" label="Berat" description="be smaller than 2.5"
+                        <b-form-group id="example-input-group-2" label="Berat"
                                       label-for="example-input-2">
                             <b-input-group append="kg">
                                 <b-form-input
@@ -116,7 +116,6 @@
                                         v-model="$v.form.weight.$model"
                                         :state="validateState('weight')"
                                         v-bind:value="$v.form.weight.$model"
-                                        @input="maxWeight"
                                         aria-describedby="input-2-live-feedback"
                                         @change="calculateWeight"
                                 ></b-form-input>
@@ -233,7 +232,6 @@
                                         v-model="$v.form.weight1.$model"
                                         :state="validateState('weight1')"
                                         v-bind:value="$v.form.weight1.$model"
-                                        @input="maxWeight1"
                                         aria-describedby="input-2-live-feedback"
                                         @change="calculateWeight"
                                 ></b-form-input>
@@ -351,7 +349,6 @@
                                         v-model="$v.form.weight2.$model"
                                         :state="validateState('weight2')"
                                         v-bind:value="$v.form.weight2.$model"
-                                        @input="maxWeight2"
                                         aria-describedby="input-2-live-feedback"
                                         @change="calculateWeight"
                                 ></b-form-input>
@@ -468,7 +465,6 @@
                                         v-model="$v.form.weight3.$model"
                                         :state="validateState('weight3')"
                                         v-bind:value="$v.form.weight3.$model"
-                                        @input="maxWeight3"
                                         aria-describedby="input-2-live-feedback"
                                         @change="calculateWeight"
                                 ></b-form-input>
@@ -543,7 +539,7 @@
                 <template>
                     <div class="form-group text-right">
                         <b-button class="btn btn-default" @click="addDocument" :disabled="buttonDisable === true">+
-                            Another Document
+                            Another Package
                         </b-button>
                     </div>
                 </template>
@@ -556,8 +552,10 @@
                             v-model="$v.form.service.$model"
                             :state="validateState('service')"
                             aria-describedby="input-9-live-feedback"
+                            @change="changeService"
                     >
                         <b-form-select-option value="express">Express</b-form-select-option>
+                        <b-form-select-option value="economy">Economy Express</b-form-select-option>
                     </b-form-select>
                     <b-form-invalid-feedback
                             id="input-9-live-feedback"
@@ -716,55 +714,19 @@
                 const {$dirty, $error} = this.$v.form[name];
                 return $dirty ? !$error : null;
             },
-            maxWeight: function (event) {
-                if (parseFloat(event).toFixed(1) > 2.5) {
-                    this.$v.form.weight.$model = 2.5
-                } else if (event < 0 || Number.isNaN(event)) {
-                    this.$v.form.weight.$model = 0;
-                } else {
-                    this.$v.form.weight.$model = event
-                }
-            },
-            maxWeight1: function (event) {
-                if (parseFloat(event).toFixed(1) > 2.5) {
-                    this.$v.form.weight1.$model = 2.5
-                } else if (event < 0 || Number.isNaN(event)) {
-                    this.$v.form.weight1.$model = 0;
-                } else {
-                    this.$v.form.weight1.$model = event
-                }
-            },
-            maxWeight2: function (event) {
-                if (parseFloat(event).toFixed(1) > 2.5) {
-                    this.$v.form.weight2.$model = 2.5
-                } else if (event < 0 || Number.isNaN(event)) {
-                    this.$v.form.weight2.$model = 0;
-                } else {
-                    this.$v.form.weight2.$model = event
-                }
-            },
-            maxWeight3: function (event) {
-                if (parseFloat(event).toFixed(1) > 2.5) {
-                    this.$v.form.weight3.$model = 2.5
-                } else if (event < 0 || Number.isNaN(event)) {
-                    this.$v.form.weight3.$model = 0;
-                } else {
-                    this.$v.form.weight3.$model = event
-                }
-            },
-            onDocumentSubmit() {
+            onPackageSubmit() {
                 this.$v.form.$touch();
                 if (this.$v.form.$anyError) {
                     return;
                 }
                 this.form.sender_id = localStorage.getItem('id');
-                this.form.type = 'document';
+                this.form.type = 'package';
 
                 this.form.items = this.totalQuantity;
                 this.form.volume = this.totalVolume;
                 this.form.weights = this.totalWeight;
                 this.form.price = this.totalPrice;
-                axios.post(url + 'saveDocumentShip', this.form)
+                axios.post(url + 'saveShip', this.form)
                     .then(res => {
                         if  (res.statusText === 'OK') {
                             localStorage.setItem('payment', JSON.stringify(res.data));
@@ -823,13 +785,16 @@
                     parseFloat(this.$v.form.weight3.$model) * this.$v.form.quantity3.$model;
                 this.form.exportCountry = JSON.parse(localStorage.getItem('origin')).country;
                 this.form.importCountry = JSON.parse(localStorage.getItem('aim')).country;
-                this.form.type = 'document';
+                this.form.type = 'package';
                 if (this.totalWeight > 0) {
-                    axios.post(url + 'getDocumentPrice', this.form)
+                    axios.post(url + 'getPackagePrice', this.form)
                         .then(res => {
                             this.totalPrice = res['data']
                         })
                 }
+            },
+            changeService() {
+                this.calculateWeight();
             }
         }
     }

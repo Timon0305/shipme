@@ -764,7 +764,7 @@
                 this.form.volume = this.totalVolume;
                 this.form.weights = this.totalWeight;
                 this.form.price = this.totalPrice;
-                axios.post(url + 'saveDocumentShip', this.form)
+                axios.post(url + 'saveShip', this.form)
                     .then(res => {
                         if  (res.statusText === 'OK') {
                             localStorage.setItem('payment', JSON.stringify(res.data));
