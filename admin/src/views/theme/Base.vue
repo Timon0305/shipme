@@ -146,3 +146,9 @@ export default {
   }
 };
 </script>
+
+<style>
+  #kt_content {
+    background: #fff;
+  }
+</style>

@@ -10,7 +10,7 @@ export const locale = {
     PAGES: "Pages",
     FEATURES: "Features",
     APPS: "Apps",
-    Customers: "Customers"
+    Customers: "Customer's order"
   },
   AUTH: {
     GENERAL: {

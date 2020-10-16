@@ -20,10 +20,10 @@ const ReceiverSchema = new mongoose.Schema({
         type: String
     },
     postCode: {
-        type: Number
+        type: String
     },
     phone: {
-        type: Number
+        type: String
     },
     email: {
         type: String
