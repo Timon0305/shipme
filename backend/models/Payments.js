@@ -25,6 +25,9 @@ const PaymentSchema = new mongoose.Schema({
     price: {
         type: String
     },
+    packageName: {
+        type: String
+    },
     created_at: {
         type: Date,
         default: Date.now

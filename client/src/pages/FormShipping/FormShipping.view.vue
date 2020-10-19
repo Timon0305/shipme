@@ -50,7 +50,7 @@ export default {
               {
                   icon: 'check',
                   name: 'third',
-                  title: 'Documen',
+                  title: 'Barang/Dokumen',
                   subtitle: '',
                   component: PayloadForm,
                   completed: false

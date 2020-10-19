@@ -12,15 +12,32 @@ export default new Router({
       children: [
         {
           path: "/dashboard",
-          name: "Customer's",
+          name: "dashboard",
           component: () => import("@/views/pages/Dashboard.vue")
         }
       ]
     },
+      {
+          path: "/",
+          component: () => import("@/views/pages/auth/Auth"),
+          children: [
+              {
+                  name: "login",
+                  path: "/login",
+                  component: () => import("@/views/pages/auth/Login")
+              },
+              {
+                  name: "register",
+                  path: "/register",
+                  component: () => import("@/views/pages/auth/Register")
+              }
+          ]
+      },
     {
       path: "*",
       redirect: "/404"
     },
+
     {
       // the 404 route, when none of the above matches
       path: "/404",

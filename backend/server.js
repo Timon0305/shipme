@@ -57,7 +57,7 @@ const {adminStatus} = require('./middleware/adminMiddleware/admin');
 
 // Admin Routes
 app.use('/v1/api/admin', require('./routes/admin/adminController'));
-app.use('/v1/api/admin/list/', adminStatus, require('./routes/admin/listController'));
+app.use('/v1/api/admin/list/', require('./routes/admin/listController'));
 
 //Client Routes
 app.use('/v2/api/client', require('./routes/client/clientController'));

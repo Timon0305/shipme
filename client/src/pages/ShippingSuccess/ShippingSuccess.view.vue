@@ -13,11 +13,13 @@
                    <div class="col-md-6 text-md-left">
                        <p>Created Date and Time :</p>
                        <p>Shipping Type :</p>
+                       <p>Package Name : </p>
                        <p>Shipping Service :</p>
                    </div>
                    <div class="col-md-6 text-md-right">
                        <p>{{shipCreated.split('T')[0]}} &nbsp; &nbsp; {{shipCreated.split('T')[1].split('.')[0]}}</p>
                        <p>{{shipType}}</p>
+                       <p>{{packageName}}</p>
                        <p>{{shipService}}</p>
                    </div>
                 </div>
@@ -92,6 +94,7 @@
                 receiverCountry: receiver.country,
                 shipType: payment.type,
                 shipPurpose: payment.purpose,
+                packageName: payment.packageName,
                 shipService: payment.service,
                 shipQuantity: payment.items,
                 shipVolume: payment.volume,

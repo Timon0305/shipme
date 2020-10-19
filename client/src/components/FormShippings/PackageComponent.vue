@@ -566,6 +566,23 @@
             </div>
         </div>
         <div class="form-row">
+            <div class="col-md-12">
+                <b-form-group id="example-input-group-1" label="Nama Barang" label-for="example-input-1">
+                    <b-form-input
+                            id="example-input-1"
+                            name="example-input-1"
+                            v-model="$v.form.packageName.$model"
+                            :state="validateState('packageName')"
+                            aria-describedby="input-1-live-feedback"
+                    ></b-form-input>
+
+                    <b-form-invalid-feedback
+                            id="input-1-live-feedback"
+                    >Package Name is required.</b-form-invalid-feedback>
+                </b-form-group>
+            </div>
+        </div>
+        <div class="form-row">
             <div class="form-group col-md-12">
                 <b-form-group id="example-input-group-10" label="Total Harga" label-for="example-input-10">
                     <b-input-group append="Rp">
@@ -580,6 +597,7 @@
                 </b-form-group>
             </div>
         </div>
+
         <div class="form-row justify-content-center">
             <div class="form-group col-md-6">
                 <button type="reset" class="btn-lg btn-block btn btn-secondary mr-2">Kembali</button>
@@ -628,6 +646,7 @@
                     width3: null,
                     height3: null,
                     weight3: 0,
+                    packageName: null,
                     service: 'express',
                 },
                 addMore: 0,
@@ -702,6 +721,9 @@
                     numeric
                 },
                 weight3: {},
+                packageName: {
+                    required
+                },
                 service: {
                     required
                 }
